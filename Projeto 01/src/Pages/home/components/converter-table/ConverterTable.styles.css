@@ -1,0 +1,39 @@
+.ConverterTableContainer {
+    width: 45.3rem;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.ConverterTableContainer--title {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.ConverterTableContainer--title h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 22px;
+}
+
+.ConverterTable--content {
+    padding: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ConverterTable--content span {
+    font-size: 1.4rem;
+    color: var(--gray-1);
+}
+
+.ConverterTable--content .column img {
+    margin: 0 8px;
+}
+
+.ConverterTable--content .column .row:nth-child(n+2) {
+    margin: 8px 0 ;
+}

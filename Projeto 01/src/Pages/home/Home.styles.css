@@ -1,0 +1,11 @@
+.HomeContainer {
+    display: inline-flex;
+    gap: 5rem;
+    height: 100%;
+}
+
+.HomeContainer--changeUnit {
+    margin: 5.6rem 0;
+    text-align: center;
+    cursor: pointer;
+}
